@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.07.00">
     <object class="Workspace" id="{1cccb564-c277-454f-92da-b83c77176891}">
         <property name="builtBanksOutputDirectory">
-            <value>C:/Users/TEMP/Desktop/4thDim/4thDimension/4th Dimension/Assets/FMODAssets/</value>
+            <value>C:/Users/TEMP/Desktop/4thDim/4thDimension/4th Dimension/4thDim/Build/</value>
         </property>
         <property name="outputFormat">
             <value>6</value>

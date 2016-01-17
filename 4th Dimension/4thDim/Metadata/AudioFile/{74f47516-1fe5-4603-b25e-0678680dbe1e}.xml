@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{74f47516-1fe5-4603-b25e-0678680dbe1e}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.62498866213151927</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Pajama_Step {8c6f4f2e-857c-4a5c-8540-471642c7fb11}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ac5a1c58-3d8a-440a-9267-3bcd270b2a55}</destination>
+        </relationship>
+    </object>
+</objects>

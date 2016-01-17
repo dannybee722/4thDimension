@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{31134b15-e55f-4800-a6ee-6674f99affd1}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.91666666666666663</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Pajama_Smash_01 {5d5987ec-bfd7-4a96-bb4e-4a26a0c72fe3}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ac5a1c58-3d8a-440a-9267-3bcd270b2a55}</destination>
+        </relationship>
+    </object>
+</objects>

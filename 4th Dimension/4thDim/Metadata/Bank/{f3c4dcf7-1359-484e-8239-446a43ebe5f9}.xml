@@ -23,7 +23,7 @@
             <value>Vorbis</value>
         </property>
         <property name="quality">
-            <value>37</value>
+            <value>64</value>
         </property>
     </object>
     <object class="PCMCompressionSetting" id="{3ebb6967-e5d3-4d2a-9365-d7bdf5828ba1}">
