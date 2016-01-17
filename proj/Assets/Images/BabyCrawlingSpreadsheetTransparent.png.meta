@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: 1d1e8dbdc30634246875587e4290db04
+timeCreated: 1453045141
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BabyCrawlingSpreadsheetTransparent_0
+    21300002: BabyCrawlingSpreadsheetTransparent_1
+    21300004: BabyCrawlingSpreadsheetTransparent_2
+    21300006: BabyCrawlingSpreadsheetTransparent_3
+    21300008: BabyCrawlingSpreadsheetTransparent_4
+    21300010: BabyCrawlingSpreadsheetTransparent_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BabyCrawlingSpreadsheetTransparent_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 1200
+        height: 1350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 189.5, y: 47}
+        - {x: 190.5, y: 59}
+        - {x: 190.5, y: 90}
+        - {x: 184.5, y: 84}
+        - {x: 179.5, y: 82}
+        - {x: 175.5, y: 80}
+        - {x: 177.5, y: 81}
+        - {x: 180.5, y: 84}
+        - {x: 181.5, y: 84}
+        - {x: 188.5, y: 89}
+        - {x: 190.5, y: 94}
+        - {x: 190.5, y: 95}
+        - {x: 179.5, y: 101}
+        - {x: 158.5, y: 108}
+        - {x: 115.5, y: 78}
+        - {x: 105.5, y: 160}
+        - {x: 93.5, y: 172}
+        - {x: 45.5, y: 165}
+        - {x: 67.5, y: 216}
+        - {x: -46.5, y: 171}
+        - {x: -97.5, y: 223}
+        - {x: -115.5, y: 221}
+        - {x: -105.5, y: 294}
+        - {x: -129.5, y: 294}
+        - {x: -135.5, y: 287}
+        - {x: -171.5, y: 252}
+        - {x: -171.5, y: 202}
+        - {x: -250.5, y: 143}
+        - {x: -250.5, y: 1}
+        - {x: -243.5, y: -38}
+        - {x: -187.5, y: -76}
+        - {x: 98.5, y: -76}
+        - {x: 123.5, y: -54}
+        - {x: 166.5, y: -13}
+    - name: BabyCrawlingSpreadsheetTransparent_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1350
+        width: 1200
+        height: 1350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 232.66669, y: 129}
+        - {x: 210.66669, y: 117}
+        - {x: 191.66669, y: 98}
+        - {x: 183.66669, y: 83}
+        - {x: 185.66669, y: 94}
+        - {x: 186.66669, y: 100}
+        - {x: 176.66669, y: 107}
+        - {x: 107.66669, y: 74}
+        - {x: 137.66669, y: 152}
+        - {x: 125.66669, y: 154}
+        - {x: 118.66669, y: 149}
+        - {x: 72.66669, y: 151}
+        - {x: 7.666687, y: 179}
+        - {x: -69.33331, y: 113}
+        - {x: -86.33331, y: 168}
+        - {x: -105.33331, y: 241}
+        - {x: -134.33331, y: 210}
+        - {x: -142.33331, y: 195}
+        - {x: -111.33331, y: 262}
+        - {x: -115.33331, y: 270}
+        - {x: -122.33331, y: 270}
+        - {x: -139.33331, y: 248}
+        - {x: -151.33331, y: 223}
+        - {x: -157.33331, y: 202}
+        - {x: -150.33331, y: 226}
+        - {x: -152.33331, y: 240}
+        - {x: -162.33331, y: 236}
+        - {x: -168.33331, y: 227}
+        - {x: -278.3333, y: 141}
+        - {x: -278.3333, y: -8}
+        - {x: -243.33331, y: -62}
+        - {x: -208.33331, y: -75}
+        - {x: -141.33331, y: -82}
+        - {x: 135.66669, y: -82}
+        - {x: 206.66669, y: -33}
+        - {x: 232.66669, y: 24}
+    - name: BabyCrawlingSpreadsheetTransparent_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1350
+        width: 1200
+        height: 1350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 266.83337, y: -5}
+        - {x: 264.83337, y: 62}
+        - {x: 253.83337, y: 59}
+        - {x: 243.83337, y: 55}
+        - {x: 240.83337, y: 53}
+        - {x: 272.83337, y: 83}
+        - {x: 272.83337, y: 91}
+        - {x: 263.83337, y: 96}
+        - {x: 221.83337, y: 85}
+        - {x: 151.83337, y: 32}
+        - {x: 109.833374, y: 69}
+        - {x: 140.83337, y: 126}
+        - {x: 124.833374, y: 126}
+        - {x: 34.833374, y: 74}
+        - {x: 39.833374, y: 157}
+        - {x: 21.833374, y: 161}
+        - {x: -19.166626, y: 141}
+        - {x: -73.166626, y: 116}
+        - {x: -98.166626, y: 185}
+        - {x: -127.166626, y: 209}
+        - {x: -136.16663, y: 213}
+        - {x: -106.166626, y: 262}
+        - {x: -122.166626, y: 262}
+        - {x: -139.16663, y: 250}
+        - {x: -173.16663, y: 228}
+        - {x: -244.16663, y: 184}
+        - {x: -283.16663, y: 136}
+        - {x: -285.16663, y: 118}
+        - {x: -285.16663, y: 15}
+        - {x: -275.16663, y: -32}
+        - {x: -251.16663, y: -56}
+        - {x: -229.16663, y: -71}
+        - {x: -165.16663, y: -79}
+        - {x: -85.166626, y: -82}
+        - {x: -68.166626, y: -85}
+        - {x: 116.833374, y: -85}
+        - {x: 137.83337, y: -82}
+        - {x: 144.83337, y: -80}
+        - {x: 201.83337, y: -75}
+    - name: BabyCrawlingSpreadsheetTransparent_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 1350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 291.5, y: 50}
+        - {x: 291.5, y: 77}
+        - {x: 289.5, y: 77}
+        - {x: 269.5, y: 75}
+        - {x: 249.5, y: 72}
+        - {x: 153.5, y: 119}
+        - {x: 87.5, y: 96}
+        - {x: 11.5, y: 81}
+        - {x: 52.5, y: 129}
+        - {x: 53.5, y: 147}
+        - {x: -63.5, y: 102}
+        - {x: -93.5, y: 262}
+        - {x: -118.5, y: 262}
+        - {x: -132.5, y: 248}
+        - {x: -149.5, y: 228}
+        - {x: -149.5, y: 227}
+        - {x: -152.5, y: 225}
+        - {x: -154.5, y: 221}
+        - {x: -157.5, y: 217}
+        - {x: -157.5, y: 216}
+        - {x: -161.5, y: 211}
+        - {x: -158.5, y: 215}
+        - {x: -156.5, y: 219}
+        - {x: -150.5, y: 227}
+        - {x: -148.5, y: 232}
+        - {x: -148.5, y: 236}
+        - {x: -150.5, y: 240}
+        - {x: -158.5, y: 238}
+        - {x: -252.5, y: 190}
+        - {x: -287.5, y: 143}
+        - {x: -287.5, y: -8}
+        - {x: -260.5, y: -62}
+        - {x: -121.5, y: -75}
+        - {x: -8.5, y: -89}
+        - {x: 90.5, y: -89}
+        - {x: 168.5, y: -82}
+        - {x: 251.5, y: -38}
+        - {x: 275.5, y: -11}
+    - name: BabyCrawlingSpreadsheetTransparent_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 1350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 225.66669, y: -49}
+        - {x: 250.66669, y: -4}
+        - {x: 266.6667, y: 51}
+        - {x: 272.6667, y: 77}
+        - {x: 272.6667, y: 101}
+        - {x: 255.66669, y: 101}
+        - {x: 222.66669, y: 81}
+        - {x: 133.66669, y: 32}
+        - {x: 111.66669, y: 61}
+        - {x: 138.66669, y: 123}
+        - {x: 124.66669, y: 126}
+        - {x: 43.666687, y: 82}
+        - {x: 9.666687, y: 100}
+        - {x: 40.666687, y: 151}
+        - {x: 23.666687, y: 159}
+        - {x: -13.333313, y: 133}
+        - {x: -74.33331, y: 86}
+        - {x: -80.33331, y: 142}
+        - {x: -103.33331, y: 180}
+        - {x: -108.33331, y: 215}
+        - {x: -96.33331, y: 248}
+        - {x: -104.33331, y: 262}
+        - {x: -123.33331, y: 262}
+        - {x: -175.33331, y: 231}
+        - {x: -189.33331, y: 200}
+        - {x: -243.33331, y: 191}
+        - {x: -285.3333, y: 134}
+        - {x: -285.3333, y: 40}
+        - {x: -279.3333, y: -29}
+        - {x: -240.33331, y: -69}
+        - {x: -165.33331, y: -76}
+        - {x: -138.33331, y: -69}
+        - {x: -91.33331, y: -49}
+        - {x: -72.33331, y: -82}
+        - {x: -58.333313, y: -85}
+        - {x: 19.666687, y: -85}
+        - {x: 36.666687, y: -73}
+        - {x: 86.66669, y: -82}
+        - {x: 143.66669, y: -83}
+    - name: BabyCrawlingSpreadsheetTransparent_5
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 1350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 231.83337, y: 14}
+        - {x: 231.83337, y: 127}
+        - {x: 208.83337, y: 116}
+        - {x: 190.83337, y: 97}
+        - {x: 182.83337, y: 83}
+        - {x: 186.83337, y: 100}
+        - {x: 176.83337, y: 109}
+        - {x: 111.833374, y: 66}
+        - {x: 135.83337, y: 151}
+        - {x: 125.833374, y: 160}
+        - {x: 71.833374, y: 151}
+        - {x: 6.833374, y: 174}
+        - {x: -66.166626, y: 116}
+        - {x: -96.166626, y: 182}
+        - {x: -96.166626, y: 259}
+        - {x: -113.166626, y: 270}
+        - {x: -120.166626, y: 270}
+        - {x: -127.166626, y: 265}
+        - {x: -141.16663, y: 245}
+        - {x: -157.16663, y: 210}
+        - {x: -150.16663, y: 227}
+        - {x: -153.16663, y: 240}
+        - {x: -164.16663, y: 233}
+        - {x: -168.16663, y: 222}
+        - {x: -173.16663, y: 207}
+        - {x: -228.16663, y: 178}
+        - {x: -268.16663, y: 139}
+        - {x: -279.16663, y: 102}
+        - {x: -279.16663, y: 24}
+        - {x: -274.16663, y: -2}
+        - {x: -248.16663, y: -56}
+        - {x: -209.16663, y: -73}
+        - {x: -193.16663, y: -75}
+        - {x: -101.166626, y: -82}
+        - {x: 22.833374, y: -82}
+        - {x: 33.833374, y: -74}
+        - {x: 103.833374, y: -82}
+        - {x: 150.83337, y: -82}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

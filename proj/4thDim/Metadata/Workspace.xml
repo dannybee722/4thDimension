@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="Workspace" id="{1cccb564-c277-454f-92da-b83c77176891}">
+        <property name="builtBanksOutputDirectory">
+            <value>C:/Users/TEMP/Desktop/4thDim/4thDimension/4th Dimension/Assets/FMODAssets/</value>
+        </property>
+        <property name="outputFormat">
+            <value>6</value>
+        </property>
+        <relationship name="masterEventFolder">
+            <destination>{57369413-0efa-4657-8fdf-49da06fa64df}</destination>
+        </relationship>
+        <relationship name="masterTagFolder">
+            <destination>{435f247f-ac6f-4a56-a92b-56654e2b132f}</destination>
+        </relationship>
+        <relationship name="masterBankFolder">
+            <destination>{77e36582-010d-4f20-ac7c-c180cd2c7aac}</destination>
+        </relationship>
+        <relationship name="audioBinManager">
+            <destination>{22787824-0aaa-47a0-93f7-707738bad14c}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{0db5b37f-e8e8-4656-8958-e36a366993d5}</destination>
+        </relationship>
+    </object>
+    <object class="AudioBinManager" id="{22787824-0aaa-47a0-93f7-707738bad14c}">
+        <relationship name="masterAudioBinFolder">
+            <destination>{ac5a1c58-3d8a-440a-9267-3bcd270b2a55}</destination>
+        </relationship>
+    </object>
+</objects>
