@@ -44,14 +44,13 @@ public class Switch_Characters : MonoBehaviour {
     {
         if(current_character == Old_Character)
         {
-            Controller_Script sc = current_character.GetComponent<Controller_Script>();
             switch_players(Teen_Character);
-            sc.transition_character();
 
         }
         else if(current_character == Teen_Character)
         {
             switch_players(Baby_Character);
+
         }
         else
         {
@@ -67,8 +66,6 @@ public class Switch_Characters : MonoBehaviour {
                 current_character.transform.position = new_position;
             }
 
-            Controller_Script sc = Old_Character.GetComponent<Controller_Script>();
-            sc.transform_into();
         }
     }
 
@@ -100,7 +97,14 @@ public class Switch_Characters : MonoBehaviour {
         enable_character(character_enable);
 
         Vector3 position = current_character.transform.position;
-        position.x = moving_camera.transform.position.x;
+        if(Mathf.Abs(position.x - moving_camera.transform.position.x) <= 0.8)
+        {
+            position.x = moving_camera.transform.position.x;
+        }
+        else
+        {
+            position.x = current_character.transform.position.x;
+        }
         character_enable.transform.position = position;
         current_character = character_enable;
     }

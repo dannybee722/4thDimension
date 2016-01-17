@@ -95,8 +95,9 @@ public class Controller_Script : MonoBehaviour {
         animator.SetTrigger("Transform_Into");
     }
 
-    public void transition_character()
+    public void transform_from()
     {
+
         animator.SetTrigger("Transform");
     }
 

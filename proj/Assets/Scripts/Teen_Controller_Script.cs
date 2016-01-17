@@ -62,5 +62,15 @@ public class Teen_Controller_Script : MonoBehaviour
 
     }
 
+    public void transform_into()
+    {
+        animator.SetTrigger("Teen_Init");
+    }
+
+    public void transform_from()
+    {
+        animator.SetTrigger("Teen_Change");
+    }
+
 
 }
