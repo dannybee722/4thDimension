@@ -10,6 +10,16 @@ public class Switch_Characters : MonoBehaviour {
     public Camera moving_camera;
     private GameObject current_character;
 
+    [FMODUnity.EventRef]
+    public string playerSteps = "event:/player_steps";
+    FMOD.Studio.EventInstance stepsEv;
+    FMOD.Studio.ParameterInstance stepsParam;
+
+    [FMODUnity.EventRef]
+    public string wormMove = "event:/player_worm_move";
+    FMOD.Studio.EventInstance wormMoveEv;
+    FMOD.Studio.ParameterInstance wormMoveParam;
+
 
     //Because the baby is shorter than the Old character,
     //keep a variable of the lowest position the old
@@ -20,6 +30,14 @@ public class Switch_Characters : MonoBehaviour {
     {
         current_character = Old_Character;
         Old_initial_y = Old_Character.transform.position.y;
+
+        stepsEv = FMODUnity.RuntimeManager.CreateInstance(playerSteps);
+        stepsEv.getParameter("moving", out stepsParam);
+        stepsEv.start();
+
+
+        wormMoveEv = FMODUnity.RuntimeManager.CreateInstance(wormMove);
+        wormMoveEv.getParameter("moving", out wormMoveParam);
     }
 	
 	// Update is called once per frame
@@ -47,24 +65,31 @@ public class Switch_Characters : MonoBehaviour {
             Controller_Script sc = current_character.GetComponent<Controller_Script>();
             switch_players(Teen_Character);
             sc.transition_character();
+            stepsEv.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
 
         }
         else if(current_character == Teen_Character)
-        {
+        {   
             switch_players(Baby_Character);
+            stepsEv.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            wormMoveEv.start();
         }
         else
         {
             switch_players(Old_Character);
-            
+            wormMoveEv.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            stepsEv.start();
+
             //Test to see if the Current_character(old in this case)
             //is below it's lowest y, change it in that case
-            if(current_character.transform.position.y < Old_initial_y)
+            if (current_character.transform.position.y < Old_initial_y)
             {
                 //Transform the vector position
                 Vector3 new_position = current_character.transform.position;
                 new_position.y = Old_initial_y;
                 current_character.transform.position = new_position;
+
+                stepsEv.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             }
 
             Controller_Script sc = Old_Character.GetComponent<Controller_Script>();
@@ -81,14 +106,19 @@ public class Switch_Characters : MonoBehaviour {
         if(current_character == Baby_Character)
         {
             switch_players(Teen_Character);
+            wormMoveEv.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            stepsEv.start();
         }
         else if(current_character == Teen_Character)
         {
             switch_players(Old_Character);
+            stepsEv.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         }
         else
         {
             switch_players(Baby_Character);
+            stepsEv.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            wormMoveEv.start();
         }
     }
     

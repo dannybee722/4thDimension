@@ -23,35 +23,12 @@ public class Controller_Script : MonoBehaviour {
     [FMODUnity.EventRef]
     public string youngLand = "event:/player_jump_end";
     */
-
-    [FMODUnity.EventRef]
-    public string playerSteps = "event:/player_steps";
-    FMOD.Studio.EventInstance stepsEv;
-    FMOD.Studio.ParameterInstance stepsParam;
-    
-    [FMODUnity.EventRef]
-    public string wormMove = "event:/player_worm_move";
-    FMOD.Studio.EventInstance wormMoveEv;
-    FMOD.Studio.ParameterInstance wormMoveParam;
     
 
     // Use this for initialization
     void Start () {
         animator = GetComponent<Animator>();
-
-        //Initialize FMOD events with parameters
-        stepsEv = FMODUnity.RuntimeManager.CreateInstance(playerSteps);
-        stepsEv.getParameter("moving", out stepsParam);
-        stepsEv.start();
-        stepsParam.setValue(0);
- 
         
-        wormMoveEv = FMODUnity.RuntimeManager.CreateInstance(wormMove);
-        wormMoveEv.getParameter("moving", out wormMoveParam);
-        wormMoveEv.start();
-        wormMoveParam.setValue(1);
-        
-
 	}
 
     void Update()
@@ -72,13 +49,7 @@ public class Controller_Script : MonoBehaviour {
         animator.SetFloat("y_speed", GetComponent<Rigidbody2D>().velocity.y);*/
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(max_speed, GetComponent<Rigidbody2D>().velocity.y);
-        //use XXXXXparam.setValue to toggle between 'on' and 'off' states for move sounds
-        /*if (Input.GetKeyDown("up"))
-        {
-            stepsParam.setValue(1f);
-            Debug.Log("moving");
-        }
-        */
+     
         //if jumping as young
         //when jump starts: FMODUnity.RuntimeManager.PlayOneShot(youngJump);
         //when contact made again: FMODUnity.RuntimeManager.PlayOneShot(youngLand);
