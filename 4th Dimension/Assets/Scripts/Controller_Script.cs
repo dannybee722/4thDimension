@@ -45,11 +45,13 @@ public class Controller_Script : MonoBehaviour {
         stepsEv = FMODUnity.RuntimeManager.CreateInstance(playerSteps);
         stepsEv.getParameter("moving", out stepsParam);
         stepsEv.start();
- /*
+        stepsParam.setValue(0);
+ 
         wormMoveEv = FMODUnity.RuntimeManager.CreateInstance(wormMove);
         wormMoveEv.getParameter("moving", out wormMoveParam);
-        wormMoveEv.start(); 
-        */
+        wormMoveEv.start();
+        wormMoveParam.setValue(0);
+ 
 
 	}
 
@@ -71,7 +73,13 @@ public class Controller_Script : MonoBehaviour {
         animator.SetFloat("y_speed", GetComponent<Rigidbody2D>().velocity.y);
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(max_speed, GetComponent<Rigidbody2D>().velocity.y);
-
+        //use XXXXXparam.setValue to toggle between 'on' and 'off' states for move sounds
+        /*if (Input.GetKeyDown("up"))
+        {
+            stepsParam.setValue(1f);
+            Debug.Log("moving");
+        }
+        */
         //if jumping as young
         //when jump starts: FMODUnity.RuntimeManager.PlayOneShot(youngJump);
         //when contact made again: FMODUnity.RuntimeManager.PlayOneShot(youngLand);

@@ -72,3 +72,9 @@ istic
 [LOG] SystemI::close                           : Remove miscllaneous DSP stuff.
 [LOG] SystemI::close                           : done.
 
+[WRN] OutputWASAPI::feederUpdate               : Starvation detected in WASAPI output buffer!
+[LOG] Manager::readBank                        : fileversion = 68, compatVersion = 68 (oldest = 44, newest = 68)
+[ERR] FMOD_OS_File_Open                        : GetLastError = 00000020 (filename = 4thDim\Build\Desktop\Master Bank.bank)
+[ERR] BankLoader::openBankFile                 : Failed to open file '4thDim\Build\Desktop\Master Bank.bank'
+[LOG] Manager::readBank                        : fileversion = 68, compatVersion = 68 (oldest = 44, newest = 68)
+[LOG] System::create                           : Header version = 1.07.05. Current version = 1.07.05.
