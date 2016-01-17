@@ -89,4 +89,15 @@ public class Controller_Script : MonoBehaviour {
         //when smashing though wall
         //FMOD.Unity.RuntimeManager.PlayOneShot(smash);
 	}
+
+    public void transform_into()
+    {
+        animator.SetTrigger("Transform_Into");
+    }
+
+    public void transition_character()
+    {
+        animator.SetTrigger("Transform");
+    }
+
 }

@@ -44,7 +44,10 @@ public class Switch_Characters : MonoBehaviour {
     {
         if(current_character == Old_Character)
         {
+            Controller_Script sc = current_character.GetComponent<Controller_Script>();
             switch_players(Teen_Character);
+            sc.transition_character();
+
         }
         else if(current_character == Teen_Character)
         {
@@ -63,6 +66,9 @@ public class Switch_Characters : MonoBehaviour {
                 new_position.y = Old_initial_y;
                 current_character.transform.position = new_position;
             }
+
+            Controller_Script sc = Old_Character.GetComponent<Controller_Script>();
+            sc.transform_into();
         }
     }
 
