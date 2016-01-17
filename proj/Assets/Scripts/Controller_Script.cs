@@ -28,12 +28,12 @@ public class Controller_Script : MonoBehaviour {
     public string playerSteps = "event:/player_steps";
     FMOD.Studio.EventInstance stepsEv;
     FMOD.Studio.ParameterInstance stepsParam;
-    /*
+    
     [FMODUnity.EventRef]
     public string wormMove = "event:/player_worm_move";
     FMOD.Studio.EventInstance wormMoveEv;
     FMOD.Studio.ParameterInstance wormMoveParam;
-    */
+    
 
     // Use this for initialization
     void Start () {
@@ -45,12 +45,12 @@ public class Controller_Script : MonoBehaviour {
         stepsEv.start();
         stepsParam.setValue(0);
  
-        /*
+        
         wormMoveEv = FMODUnity.RuntimeManager.CreateInstance(wormMove);
         wormMoveEv.getParameter("moving", out wormMoveParam);
         wormMoveEv.start();
-        wormMoveParam.setValue(0);
-        */
+        wormMoveParam.setValue(1);
+        
 
 	}
 

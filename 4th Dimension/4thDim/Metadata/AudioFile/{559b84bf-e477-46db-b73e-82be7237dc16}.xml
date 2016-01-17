@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{559b84bf-e477-46db-b73e-82be7237dc16}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.790634920634921</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Gun_End {de550942-9809-4cc1-b8d8-af0340ba53e2}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ac5a1c58-3d8a-440a-9267-3bcd270b2a55}</destination>
+        </relationship>
+    </object>
+</objects>
